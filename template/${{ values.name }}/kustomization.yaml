@@ -1,0 +1,8 @@
+# This is kustomization file for ${{ values.name }} application
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- base/
+namespace: ${{ values.namespace }}
+commonLabels:
+  author: Infra 
