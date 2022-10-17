@@ -8,7 +8,7 @@ jobs:
       - uses: kubescape/github-action@main
         continue-on-error: true
         with:
-          files: "falco/base/*.yaml"
+          files: "${{ values.name }}/base/*.yaml"
           frameworks: |
             nsa
           failedThreshold: 50
