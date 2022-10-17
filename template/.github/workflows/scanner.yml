@@ -11,7 +11,7 @@ jobs:
           files: "${{ values.name }}/base/*.yaml"
           frameworks: |
             nsa
-          failedThreshold: 50
+          severityThreshold: high
       - name: Archive kubescape scan results
         uses: actions/upload-artifact@v2
         with:
