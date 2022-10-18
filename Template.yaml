@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: example-kubernetes-template
-  title: Example Kubernetes Template
+  name: kubernetes-component
+  title: Kubernetes Component
   description: An example template for the scaffolder that creates a simple Kubernetes service
 spec:
   owner: meli/infra
