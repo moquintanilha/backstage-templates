@@ -1,4 +1,5 @@
-[![GitHub tag](https://img.shields.io/github/tag/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/tags/)
+![CI Status](https://github.com/moquintanilha/backstage-templates/actions/workflows/tag-version.yml/badge.svg?branch=main)
+
 # Kubernetes Component
 
 Kubernetes component example project.
