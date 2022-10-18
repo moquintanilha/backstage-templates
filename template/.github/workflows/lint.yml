@@ -16,4 +16,4 @@ jobs:
         run: pip install --user yamllint
 
       - name: Lint YAML Files
-        run: yamllint ${{ values.name }}/base/*.yaml
+        run: yamllint -f auto -s ${{ values.name }}/base/*.yaml
