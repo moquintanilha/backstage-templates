@@ -1,4 +1,5 @@
-![CI Status](https://github.com/moquintanilha/backstage-templates/actions/workflows/tag-version.yml/badge.svg?branch=main)
+![Selo](https://img.shields.io/badge/Kubernetes-326DE6?style=for-the-badge&logo=kubernetes&logoColor=white
+)
 
 # Kubernetes Component
 
