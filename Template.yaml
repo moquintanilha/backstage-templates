@@ -6,7 +6,7 @@ metadata:
   title: Kubernetes Component
   description: An example template for the scaffolder that creates a simple Kubernetes service
 spec:
-  owner: meli/infra
+  owner: infrastructure
   type: service
 
   parameters:
