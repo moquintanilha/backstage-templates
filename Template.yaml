@@ -1,3 +1,4 @@
+---
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
@@ -86,3 +87,13 @@ spec:
       - title: Open in catalog
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure
+  description: The infra team
+spec:
+  type: team
+  children: [pci, crypto]
