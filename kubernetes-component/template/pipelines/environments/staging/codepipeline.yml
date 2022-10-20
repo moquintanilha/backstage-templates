@@ -13,7 +13,7 @@ Parameters:
   GitOwner:
     Type: String
     Description: GitHub owner repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: ${{ values.owner }}
+    Default: mercadolibre
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
