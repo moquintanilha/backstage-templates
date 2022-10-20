@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: automation
+metadata:
+  name: network
+  description: The infra team
+spec:
+  type: team
+  profile:
+    displayName: Automation
+    email: infraestructura@mercadolibre.com
+  children: []
