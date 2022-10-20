@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: compute
+  description: The infra team
+spec:
+  type: team
+  profile:
+    displayName: Compute
+    email: infraestructura@mercadolibre.com
+  children: []
