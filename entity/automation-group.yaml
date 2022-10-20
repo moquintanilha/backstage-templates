@@ -1,9 +1,9 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: automation
+kind: Group
 metadata:
-  name: network
-  description: The infra team
+  name: automation
+  description: The automation team
 spec:
   type: team
   profile:
